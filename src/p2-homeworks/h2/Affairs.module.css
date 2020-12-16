@@ -1,0 +1,9 @@
+
+.someClass_button {
+    width: 50px;
+    margin: 0 2px 0 0
+}
+
+.someClass_button:hover {
+    background: cadetblue;
+}

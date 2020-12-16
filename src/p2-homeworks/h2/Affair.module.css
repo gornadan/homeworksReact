@@ -1,0 +1,23 @@
+.wrapper_affair {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+
+}
+
+.affair_span {
+    width: 175px;
+    padding: 0 0 0 5px;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+.affair_button:hover {
+    background: cadetblue;;
+}
+
+
+
+

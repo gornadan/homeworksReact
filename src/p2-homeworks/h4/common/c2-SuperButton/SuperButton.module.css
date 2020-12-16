@@ -1,0 +1,17 @@
+.default {
+
+}
+
+.red {
+    cursor: pointer;
+    border: 1px solid #9994ce;
+    background:  #8c8899;;
+    box-shadow: inset 0px 20px 20px #ffffff;
+    border-radius: 8px;
+    padding: 8px 14px;
+    width: 120px;
+    margin: 10px;
+    font-size: 16px;
+
+    /*background: red;*/
+}

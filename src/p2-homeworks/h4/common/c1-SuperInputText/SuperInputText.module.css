@@ -1,0 +1,33 @@
+.superInput {
+    width: 300px;
+    font-size: 16px;
+    padding: 6px 0 4px 10px;
+    border: 2px solid #9994ce;
+    background: #8c8899;
+    box-shadow: inset 0px 20px 20px #ffffff;
+    border-radius: 6px;
+    margin-bottom: 10px;
+
+    /*border: 2px solid #178dff;*/
+    /*background: #93e2ff;*/
+}
+
+.errorInput {
+    width: 300px;
+    font-size: 16px;
+    padding: 6px 0 4px 10px;
+    border: 2px solid #ceaa72;
+    background: #991114;
+    box-shadow: inset 0px 20px 20px #ffffff;
+    border-radius: 6px;
+    margin-bottom: 10px;
+
+    /*border: 3px solid lime;*/
+    /*background: red;*/
+}
+
+.error {
+    color: #991114;
+    box-shadow: inset 0px 20px 20px #ffffff;
+    font-size: 16px;
+}

@@ -1,0 +1,72 @@
+.message {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    background: greenyellow;
+
+
+}
+
+.message_img {
+    align-self: end;
+
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+    margin: 10px;
+}
+
+.message_wrapper {
+    align-self: center;
+    margin: 10px;
+    width: 300px;
+}
+
+.message_wrap {
+    align-self: center;
+    border: 1px solid green;
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+    background: green;
+    color: #fff;
+
+}
+
+.message_wrap::after, .message_wrap::before {
+    content: '';
+    position: absolute;
+    background: green;
+    left: -11px;
+    bottom: 11px;
+    width: 20px;
+    height: 20px;
+    box-shadow: 0 0 7px #000; /* Добавляем тень для уголка */
+    z-index: -1; /* Прячем за основным блоком */
+    transform: rotate(45deg); /* Поворачиваем на 45º */
+    -webkit-transform: rotate(45deg);
+}
+
+.message_wrap::before {
+    z-index: 1;
+    box-shadow: none;
+}
+
+.name_mess {
+    font-size: 24px;
+    color: #8c8899;
+}
+
+.message_mess {
+    font-size: 20px;
+    color: white;
+}
+
+.time_mess {
+    font-size: 24px;
+    color: #c9ddff;
+    text-align: right;
+}
+
