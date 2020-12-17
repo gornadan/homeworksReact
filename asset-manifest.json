@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/gornadan/homeworksReact/static/css/main.80503dd3.chunk.css",
+    "main.js": "/gornadan/homeworksReact/static/js/main.3304b3c1.chunk.js",
+    "main.js.map": "/gornadan/homeworksReact/static/js/main.3304b3c1.chunk.js.map",
+    "runtime-main.js": "/gornadan/homeworksReact/static/js/runtime-main.94ff74f0.js",
+    "runtime-main.js.map": "/gornadan/homeworksReact/static/js/runtime-main.94ff74f0.js.map",
+    "static/js/2.9716f08b.chunk.js": "/gornadan/homeworksReact/static/js/2.9716f08b.chunk.js",
+    "static/js/2.9716f08b.chunk.js.map": "/gornadan/homeworksReact/static/js/2.9716f08b.chunk.js.map",
+    "index.html": "/gornadan/homeworksReact/index.html",
+    "precache-manifest.09cce814ff51c63cba467549df2db024.js": "/gornadan/homeworksReact/precache-manifest.09cce814ff51c63cba467549df2db024.js",
+    "service-worker.js": "/gornadan/homeworksReact/service-worker.js",
+    "static/css/main.80503dd3.chunk.css.map": "/gornadan/homeworksReact/static/css/main.80503dd3.chunk.css.map",
+    "static/js/2.9716f08b.chunk.js.LICENSE.txt": "/gornadan/homeworksReact/static/js/2.9716f08b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.94ff74f0.js",
+    "static/js/2.9716f08b.chunk.js",
+    "static/css/main.80503dd3.chunk.css",
+    "static/js/main.3304b3c1.chunk.js"
+  ]
+}
