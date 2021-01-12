@@ -1,0 +1,9 @@
+.spanItem {
+    padding: 5px 60px;
+    /*margin-bottom: 20px;*/
+    background-color: #79a087;
+    border: solid 2px white;
+    /*border-radius: 10px;*/
+    outline: none;
+    color: white;
+}
