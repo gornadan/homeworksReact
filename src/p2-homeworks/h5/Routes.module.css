@@ -1,29 +1,5 @@
 
 .item2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    /*flex-direction: column;*/
-    transition: 0.5s;
-    position: relative;
-    z-index: 0;
-
-    left: 0;
-    top: 0;
-    transform: translateX(35%);
-    border: 2px solid red;
+    padding-left: 15px;
 }
 
-.item2_active {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /*flex-direction: column;*/
-    transition: 0.5s;
-    position: relative;
-    z-index: 0;
-    left: 0;
-    top: 0;
-    transform: translateX(0%);
-}

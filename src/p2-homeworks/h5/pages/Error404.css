@@ -1,0 +1,39 @@
+.wrapper{
+    background-color: #95c2de;
+}
+
+.wrap_box {
+    background-color: #95c2de;
+    margin: auto;
+    height: 600px;
+    width: 600px;
+    position: relative;
+}
+
+.error {
+    color: #ffffff;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 11rem;
+    position: absolute;
+    left: 20%;
+    top: 8%;
+}
+
+.error_2 {
+     color: #ffffff;
+     font-family: 'Nunito Sans', sans-serif;
+     font-size: 11rem;
+     position: absolute;
+     left: 42%;
+     top: 15%;
+ }
+
+.error_3 {
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.6rem;
+    position: absolute;
+    left: 16%;
+    top: 45%;
+    width: 75%;
+}
