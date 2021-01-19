@@ -19,7 +19,7 @@
     "typescript": "~3.7.2",
     "uuid": "^8.3.1"
   },
-  "homepage": "https://github.com/gornadan/homeworksReact",
+  "homepage": "https://gornadan.github.io/homeworksReact",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
