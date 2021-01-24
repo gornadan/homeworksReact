@@ -21,7 +21,7 @@ function HW7() {
                     onChangeOption={onChangeOption}
                 />
             </div>
-            <div className={s.form_radio}>
+            <div >
                 <SuperRadio
                     name={"radio"}
                     options={arr}
