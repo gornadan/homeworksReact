@@ -7,25 +7,27 @@ function Clock() {
     const [show, setShow] = useState<boolean>(false);
 
     const stop = () => {
+        clearInterval(timerId)
         // stop
     }
     const start = () => {
         stop();
         const id: number = window.setInterval(() => {
+            setDate(new Date())
             // setDate
         }, 1000);
         setTimerId(id);
     }
 
     const onMouseEnter = () => {
-        // show
+       setShow(true)
     };
     const onMouseLeave = () => {
-        // close
+       setShow(false)
     };
 
-    const stringTime = "Time"; // fix with date
-    const stringDate = "Date"; // fix with date
+    const stringTime = "Time " + date?.toLocaleTimeString("en-US",{ hour: 'numeric', minute: 'numeric', second: 'numeric'}); // fix with date
+    const stringDate = "Date " + date?.toLocaleDateString("en-US",{ year: 'numeric', month: 'long', day: 'numeric', weekday: 'long',}) ;
 
     return (
         <div>
