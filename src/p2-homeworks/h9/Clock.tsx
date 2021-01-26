@@ -1,5 +1,7 @@
 import React, {useState} from "react";
 import SuperButton from "../h4/common/c2-SuperButton/SuperButton";
+ import  s from "./Clock.module.css"
+
 
 function Clock() {
     const [timerId, setTimerId] = useState<number>(0);
@@ -30,7 +32,7 @@ function Clock() {
     const stringDate = "Date " + date?.toLocaleDateString("en-US",{ year: 'numeric', month: 'long', day: 'numeric', weekday: 'long',}) ;
 
     return (
-        <div>
+        <div className={s.wrapper}>
             <div
                 onMouseEnter={onMouseEnter}
                 onMouseLeave={onMouseLeave}
