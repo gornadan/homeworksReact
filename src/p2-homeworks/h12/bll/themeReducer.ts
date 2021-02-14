@@ -1,14 +1,30 @@
-const initState = {
+import {dark} from "@material-ui/core/styles/createPalette";
 
+
+
+export type ThemesInitType = {
+    currentThemes: string
+}
+
+const initState: ThemesInitType = {
+    currentThemes: 'dark'
 };
 
-export const themeReducer = (state = initState, action: any): any => { // fix any
+export const themeReducer = (state = initState, action: ChangeThemeACType): ThemesInitType => { // fix any
     switch (action.type) {
-        case "": {
-            return state;
+        case "CHANGE_THEMES": {
+            return {...state, currentThemes: action.payload};
         }
+
         default: return state;
     }
 };
 
-export const changeThemeC = (): any => {}; // fix any
+export type ChangeThemeACType = {
+    type: "CHANGE_THEMES"
+    payload: string
+}
+
+export const changeThemeC = (theme: string): ChangeThemeACType => {
+    return {type: "CHANGE_THEMES", payload:theme}
+}; // fix any

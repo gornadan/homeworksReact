@@ -21,7 +21,7 @@ const SuperDoubleRange: React.FC<SuperDoubleRangePropsType> = (
 ) => {
     // сделать самому, можно подключать библиотеки
     const handleChange = (event: ChangeEvent<{}>, newValue: number | number[]) => {
-        onChangeRange && onChangeRange(newValue as [number number]);
+        onChangeRange && onChangeRange(newValue as [number,number]);
     };
     const classes = myStyles();
     return (
